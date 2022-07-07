@@ -54,10 +54,10 @@ public class Methods extends BaseTest {
     public void isElementExist(By by){
         List<WebElement> l = driver.findElements(by);
         if(l.size() == 0){
-            System.out.println(l +"is does not exist.");
+            System.out.println(l +" is does not exist.");
         }
         else{
-            System.out.println(l + "is exist in the page.");
+            System.out.println(l + " is exist in the page.");
         }
     }
 }

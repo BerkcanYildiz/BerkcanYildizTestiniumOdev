@@ -14,7 +14,6 @@ public class TestScenario extends Methods {
     public void TestScenario() throws CsvValidationException, IOException, InterruptedException {
         isElementExist(By.className("content-home")); // Ana Sayfaya özgü content-home sınıfı kontrol edilir.
         DataReadFromCsv("search-input"); // CSV dosyasından okunan veri search-input isimli alana girilir ve enter tuşuna basılır.
-        // clickBy(By.className("button-search")); //
         RandomItem();
         clickBy(By.id("button-cart")); // Sepete ekle butonuna tıklanır.
         clickBy(By.id("cart")); // Sepetim butonuna tıklanır.
